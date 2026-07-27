@@ -1,6 +1,7 @@
 package live_coding
 
 fun main() {
+    val a =0
     val points = mutableListOf<Pair<Int, Int>>(Pair(1, 1),Pair(1, 1), Pair(-1,1), Pair(-1,1), Pair(0,0))
     val points_map = mutableMapOf<Pair<Int, Int>, Int>()
     var max = points[0].first
